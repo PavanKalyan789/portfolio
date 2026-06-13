@@ -1,1 +1,0 @@
-Place your resume.pdf here. This file will be served at /resume/resume.pdf
