@@ -19,7 +19,7 @@
     "profilePhoto": "/images/profile.jpg",
     "availableForWork": true
   },
-  "summary": "Data Engineer with 4+ years of experience architecting production-grade batch and real-time data pipelines across AWS and Databricks. Proven track record processing 500 GB–1 TB weekly ETL workloads, migrating 20+ TB of privacy-sensitive data across 50+ enterprise applications, and building a FastAPI-backed data layer that reduced order retrieval latency by 40%. Deep expertise in PySpark, Apache Spark, Spark SQL, Apache Iceberg, CDC, and Apache Airflow. AWS Certified Data Engineer (Associate), AWS Certified AI Practitioner, and Databricks Data Engineer (Associate).",
+  "summary": "Data Engineer with 4+ years of experience architecting production-grade batch and real-time data pipelines across AWS and Databricks. Proven track record processing 500 GB–1 TB weekly ETL workloads, migrating 20+ TB of privacy-sensitive data across 50+ enterprise applications, and building a FastAPI-backed data layer that reduced order retrieval latency by 40%. Deep expertise in PySpark, Apache Spark, Spark SQL, Apache Iceberg, CDC, and Apache Airflow. AWS Certified Data Engineer (Associate), AWS Certified AI Practitioner, and Databricks Data Engineer (Associate)*.",
   "skills": [
     {
       "category": "Languages & Scripting",
