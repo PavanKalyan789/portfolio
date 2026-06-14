@@ -1960,7 +1960,8 @@
   <!-- ═══ FOOTER ═══ -->
   <footer role="contentinfo">
     <p>Built by <a id="footer-name" href="#hero">Pavan Kalyan Gollapalli</a> · <a id="footer-li" href="#">LinkedIn</a> ·
-      <a id="footer-gh" href="#">GitHub</a></p>
+      <a id="footer-gh" href="#">GitHub</a>
+    </p>
     <div class="footer-update-hint">Update content/resume-data.json to refresh all sections</div>
   </footer>
   <script>
@@ -1971,7 +1972,7 @@
     // ── EMBEDDED DATA (fallback if JSON not loadable via fetch) ──
     const RESUME_DATA = {
       meta: { siteTitle: "Pavan Kalyan Gollapalli — Data Engineer Portfolio", siteDescription: "Senior Data Engineer specializing in PySpark, AWS, Databricks, and real-time streaming pipelines." },
-      profile: { name: "Pavan Kalyan Gollapalli", title: "Senior Data Engineer", tagline: "Building scalable data pipelines that turn raw bytes into business decisions.", location: "Hyderabad, India", email: "Pavankalyang789@gmail.com", phone: "+91-9885094547", linkedin: "https://linkedin.com/in/[INSERT-YOUR-LINKEDIN-SLUG]", github: "https://github.com/[INSERT-YOUR-GITHUB-USERNAME]", portfolio: "https://[INSERT-YOUR-PORTFOLIO-DOMAIN]", resumePdf: "resume/resume.pdf", resumeDocx: "resume/resume.docx", profilePhoto: "images/profile.jpg", availableForWork: true },
+      profile: { name: "Pavan Kalyan Gollapalli", title: "Senior Data Engineer", tagline: "Building scalable data pipelines that turn raw bytes into business decisions.", location: "Hyderabad, India", email: "Pavankalyang789@gmail.com", phone: "+91-9885094547", linkedin: "https://linkedin.com/in/[INSERT-YOUR-LINKEDIN-SLUG]", github: "https://github.com/[INSERT-YOUR-GITHUB-USERNAME]", portfolio: "https://[INSERT-YOUR-PORTFOLIO-DOMAIN]", resumePdf: "public/resume/resume.pdf", resumeDocx: "public/resume/resume.docx", profilePhoto: "public/images/profile.jpg", availableForWork: true },
       summary: "Senior Data Engineer with 4+ years of experience architecting production-grade batch and real-time data pipelines across AWS and Databricks. Proven track record processing 500 GB–1 TB weekly ETL workloads, migrating 20+ TB of privacy-sensitive data across 50+ enterprise applications, and building a FastAPI-backed data layer that reduced order retrieval latency by 40%. Deep expertise in PySpark, Apache Spark, Spark SQL, Apache Iceberg, CDC, and Apache Airflow. AWS Certified Data Engineer (Associate), AWS Certified AI Practitioner, and Databricks Data Engineer (Associate).",
       skills: [{ category: "Languages & Scripting", items: ["Python", "PySpark", "Spark SQL", "SQL", "Shell Scripting"] }, { category: "Big Data & Processing", items: ["Apache Spark", "Databricks", "Apache Iceberg", "Delta Lake", "Hive", "Parquet", "ORC"] }, { category: "Streaming & CDC", items: ["Real-Time Streaming ETL", "Change Data Capture (CDC)", "Apache Kafka", "Sub-minute Latency Pipelines"] }, { category: "Workflow Orchestration", items: ["Apache Airflow", "AWS MWAA", "DAG Design", "Pipeline Scheduling"] }, { category: "Cloud — AWS", items: ["AWS S3", "AWS Glue", "Amazon Redshift", "Amazon EMR", "AWS Lambda", "AWS MWAA"] }, { category: "ETL & Data Engineering", items: ["ETL/ELT Development", "Data Modeling", "Data Warehousing", "Data Lake", "Data Migration", "Schema Evolution", "Medallion Architecture", "CDC"] }, { category: "API & Services", items: ["FastAPI", "REST APIs", "JSON Processing", "Microservices"] }, { category: "DevOps & Infrastructure", items: ["Docker", "Kubernetes", "Git", "CI/CD", "Linux", "Shell Scripting"] }, { category: "Data Quality", items: ["dbt", "Great Expectations", "Data Validation", "Error Handling Frameworks", "Data Observability"] }],
       experience: [{ id: "deloitte-2025", company: "Deloitte", role: "Data Engineer II", location: "Hyderabad, India", startDate: "October 2025", endDate: "Present", type: "Full-time", project: "Real-Time Backlog Engine — Enterprise Order Management", bullets: ["Architected an end-to-end real-time streaming ETL pipeline using PySpark and Python (Pandas) to ingest and process high-velocity nested JSON data from enterprise order management systems, sustaining 500K+ records/day at sub-minute latency.", "Engineered a multi-layer JSON flattening engine parsing 5–8 levels of nesting across 150+ fields per record, converting raw streaming data into structured, analytics-ready datasets with 99.7% schema consistency.", "Designed and deployed a FastAPI-based data transfer service with REST endpoints exposing enriched order data to downstream consumers, reducing average data retrieval latency by 40% and enabling self-serve access for 3+ enterprise teams.", "Tuned PySpark partitioning strategies, broadcast joins, and parallelism configurations to increase streaming pipeline throughput by 35%, maintaining 99.9% uptime under peak enterprise workloads.", "Implemented multi-stage error handling, schema validation checkpoints, and dead-letter queues, achieving <0.01% data loss rate and full end-to-end data integrity from ingestion to API delivery."], tags: ["PySpark", "FastAPI", "Streaming ETL", "JSON Processing", "AWS"] }, { id: "cognizant-2025", company: "Cognizant Technology Solutions", role: "Data Engineer", location: "Hyderabad, India", startDate: "May 2025", endDate: "October 2025", type: "Contract", project: "Payment Data Integration & Processing — Banking Domain", bullets: ["Developed and optimized PySpark ETL pipelines for high-volume banking datasets ingested from AWS S3, improving ETL throughput by 30% and data accuracy across critical payment processing workflows.", "Executed multi-environment data validation and migration checks (dev, staging, UAT, production) ensuring 100% data consistency across banking ledger tables prior to production promotion.", "Automated CI/CD pipeline deployments using Python and Git-based workflows, cutting manual deployment intervention by ~8 hours/week and reducing production failure rate by 30%."], tags: ["PySpark", "AWS S3", "Banking", "CI/CD", "Data Validation"] }, { id: "tcs-2022", company: "Tata Consultancy Services", role: "Data Engineer", location: "Hyderabad, India", startDate: "January 2022", endDate: "May 2025", type: "Full-time", project: "Multiple Projects: Geospatial Analytics, Social Media Migration, Data Privacy", bullets: ["Designed a dimensional data model (2 fact tables, 11 dimension tables) for large-scale geospatial data marts, enabling efficient OLAP queries across spatial datasets for enterprise reporting.", "Built automated PySpark and Spark SQL ETL pipelines processing 500 GB–1 TB weekly, incorporating CDC mechanisms that maintained 99.8% incremental update accuracy.", "Processed 1M+ nested JSON API records daily, flattening 200+ GB of raw social media data into structured tables — delivering 20% storage reduction and 35% query performance improvement.", "Migrated 20+ TB of privacy-sensitive data across 50+ applications encompassing 3,000+ tables using Teradata, AWS S3, MinIO, and CSV-based transfer pipelines — achieving full regulatory compliance.", "Built an automated QA validation framework reducing manual testing effort by 80%+ — recognized at TCS Innovista for operational efficiency."], tags: ["PySpark", "Spark SQL", "CDC", "Data Modeling", "AWS S3", "MinIO", "ETL", "Data Migration"] }],
@@ -2119,7 +2120,7 @@
     // ROLE ROTATOR
     // ══════════════════
     function initRoleRotator(title) {
-      const roles = [title, 'Big Data Engineer', 'Cloud Data Engineer', 'AWS Data Engineer', 'Spark Developer', 'ETL Developer'];
+      const roles = [title, 'Big Data Engineer', 'Cloud Data Engineer', 'AWS Data Engineer', 'Spark Developer', 'ETL Developer', 'AI Data Engineer'];
       let idx = 0;
       const el = document.getElementById('hero-role-display');
       setInterval(() => {
@@ -2192,6 +2193,18 @@
       const init = document.getElementById('hero-initials');
       if (init) {
         init.textContent = (parts[0][0] + (parts[1] ? parts[1][0] : '')).toUpperCase();
+      }
+      // Render profile photo if available (replace initials placeholder)
+      const picContainer = document.getElementById('profile-img-container');
+      if (picContainer) {
+        if (p.profilePhoto) {
+          picContainer.innerHTML = `<img class="hero-profile-img" id="hero-profile-img" src="${esc(p.profilePhoto)}" alt="${esc(p.name)}">`;
+        } else {
+          // leave initials placeholder
+          if (!picContainer.querySelector('.hero-initials')) {
+            picContainer.innerHTML = `<span class="hero-initials" id="hero-initials">${(parts[0][0] + (parts[1] ? parts[1][0] : '')).toUpperCase()}</span>`;
+          }
+        }
       }
       const ab = document.getElementById('hero-avail-badge');
       if (ab && !p.availableForWork) ab.style.display = 'none';
