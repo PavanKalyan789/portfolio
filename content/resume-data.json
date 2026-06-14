@@ -142,7 +142,7 @@
       "location": "Hyderabad, India",
       "startDate": "May 2025",
       "endDate": "October 2025",
-      "type": "Contract",
+      "type": "Full-time",
       "project": "Payment Data Integration & Processing — Banking Domain",
       "bullets": [
         "Developed and optimized PySpark ETL pipelines for high-volume banking datasets ingested from AWS S3, improving ETL throughput by 30% and data accuracy across critical payment processing workflows.",
